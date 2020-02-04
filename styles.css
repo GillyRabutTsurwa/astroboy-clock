@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-image: url(Images/AstroBoyCyborg.jpg);
+	background-size: cover;
+	font-family: 'Staatliches', cursive;
+	overflow: hidden;
+	position: relative;
+}
+
+.main-container {
+	position: absolute;
+	top: 5rem;
+	right: 9rem;
+	width: 40%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+	font-size: 7rem;
+}
+
+.day-date-month {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.day-date-month * {
+	margin: 0 2rem;
+}
